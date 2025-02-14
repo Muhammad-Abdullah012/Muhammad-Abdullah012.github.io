@@ -9,8 +9,5 @@ export default {
     adapter: adapter({
       fallback: "404.html",
     }),
-    paths: {
-      base: "Muhammad-Abdullah012",
-    },
   },
 };
