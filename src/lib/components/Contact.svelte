@@ -19,8 +19,6 @@
     submitStatus = "idle";
 
     try {
-      await delay(5000);
-      /*
       await emailjs.send(
         "service_ipxolot", // Replace with your EmailJS service ID
         "template_ouygscl", // Replace with your EmailJS template ID
@@ -33,7 +31,6 @@
         },
         "ofq2JjZy67wwrVZfy" // Replace with your EmailJS public key
       );
-      */
       submitStatus = "success";
       // Reset form after successful submission
       formData = {
