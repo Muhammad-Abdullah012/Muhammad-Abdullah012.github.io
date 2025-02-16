@@ -9,7 +9,7 @@ export default {
     adapter: adapter(),
     paths: {
       base:
-        process.env.NODE_ENV === "production" ? "/Muhammad-Abdullah012.github.io" : "",
+        process.env.NODE_ENV === "production" ? "/dist" : "",
     },
   },
 };
