@@ -82,7 +82,7 @@
 
         <a
           href="#contact"
-          class="inline-block bg-gradient-to-r from-primary to-secondary text-white px-10 py-4 rounded-full hover:from-secondary hover:to-primary transition-all shadow-md animate__animated animate__fadeInUp"
+          class="inline-block bg-gradient-to-r from-primary to-secondary text-white px-10 mb-8 md:mb-0 py-4 rounded-full hover:from-secondary hover:to-primary transition-all shadow-md animate__animated animate__fadeInUp"
           aria-label="Get in touch with Muhammad Abdullah"
         >
           &#128075; Get in Touch
@@ -90,7 +90,7 @@
         <a
           href={Resume}
           download
-          class="inline-block bg-secondary text-white px-10 py-4 rounded-full transition-all shadow-md animate__animated animate__fadeInUp"
+          class="inline-block bg-secondary text-white px-10 mb-8 md:mb-0 py-4 rounded-full transition-all shadow-md animate__animated animate__fadeInUp"
         >
           &#128229; Resume
         </a>
