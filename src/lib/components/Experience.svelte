@@ -9,8 +9,8 @@
         "Developed a dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
         "Developed a scalable logistics platform with car rental features, real-time trip management, and an admin dashboard for tracking KPIs.",
         "Developed a scalable web scraper for zameen.com using Node.js, Cheerio, and Sequelize, processing and storing over 50,000 real estate listings in a PostgreSQL database. Built REST API for real-time access to the data.",
-        'Contributed to the development of "Attentive," a Chrome extension application built with Electron, enhancing task management and user productivity features.',
         'Developed a Chrome extension for "Attentive," connected it with the desktop app. Ensured seamless communication between the extension and the desktop app for enhanced user interaction.',
+        'Developed a desktop application "Attentive," with Electron, enhancing task management and user productivity features.',
       ],
     },
     {

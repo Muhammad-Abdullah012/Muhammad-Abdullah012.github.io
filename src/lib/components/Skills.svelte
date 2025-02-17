@@ -17,6 +17,8 @@
       { name: "Prisma", level: 80 },
       { name: "Sequelize", level: 80 },
       { name: "Puppeteer", level: 75 },
+      { name: "Python", level: 70 },
+      { name: "Playwright", level: 70 },
     ],
     tools: [
       { name: "Git & GitHub", level: 90 },

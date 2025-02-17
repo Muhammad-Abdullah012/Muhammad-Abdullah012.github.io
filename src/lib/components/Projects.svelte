@@ -60,7 +60,7 @@
     },
     {
       title: "Attentive",
-      description: "A productivity application",
+      description: "Attentive is a powerful desktop application designed to help users stay focused by blocking distracting websites and applications. Whether you're working, studying, or just trying to be more mindful of your screen time, this app ensures you stay on track.",
       technologies: ["Electron", "React", "Node.js", "Typescript"],
       image: AttentiveLogo,
       github: "https://github.com/SargeKhan/electron_attentive",
