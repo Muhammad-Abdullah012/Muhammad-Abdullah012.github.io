@@ -6,11 +6,8 @@
       period: "01/2024 - Present",
       location: "Islamabad, Pakistan",
       achievements: [
-        "Developed a dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
-        "Developed a scalable logistics platform with car rental features, real-time trip management, and an admin dashboard for tracking KPIs.",
-        "Developed a scalable web scraper for zameen.com using Node.js, Cheerio, and Sequelize, processing and storing over 50,000 real estate listings in a PostgreSQL database. Built REST API for real-time access to the data.",
-        'Developed a Chrome extension for "Attentive," connected it with the desktop app. Ensured seamless communication between the extension and the desktop app for enhanced user interaction.',
-        'Developed a desktop application "Attentive," with Electron, enhancing task management and user productivity features.',
+        "As a Full-Stack Developer at Alisquare, I specialize in backend development, project deployments, and leading key projects from conception to execution. I design and implement scalable, high-performance backend architectures, ensuring seamless integration with frontend systems. I also manage the deployment process, optimizing infrastructure for reliability and efficiency.",
+        "In addition to development, I take on a leadership role in guiding projects, collaborating with cross-functional teams to deliver robust and innovative solutions. My expertise extends to system architecture, API development, database management, and performance optimization, ensuring that applications meet both technical and business objectives.",
       ],
     },
     {
@@ -19,9 +16,8 @@
       period: "01/2023 - 12/2023",
       location: "Islamabad, Pakistan",
       achievements: [
-        "Developed and implemented hybrid mobile apps using React Native and Expo. Focused on reusable component development and UI enhancements, resulting in a 15% increase in user engagement.",
-        "Integrated Firebase Cloud Functions and Firestore for backend services, and implemented Square Payments Gateway for secure transaction processing.",
-        "Implemented Algolia search for enhanced user experience, enabling fast and accurate search functionality within the application.",
+        "As a Full-Stack Developer at Gitrex Technologies, I contributed to both backend and frontend development, building scalable and high-performance hybrid mobile applications. I designed and implemented backend architectures, developed APIs, and optimized database performance to ensure seamless data flow and application efficiency.",
+        "On the frontend, I crafted responsive and user-friendly interfaces, integrating modern frameworks to enhance user experience. Collaborating closely with cross-functional teams, I played a key role in delivering feature-rich, well-optimized applications that met business and user needs."
       ],
     },
     {
@@ -30,7 +26,8 @@
       period: "10/2022 - 12/2022",
       location: "Islamabad, Pakistan",
       achievements: [
-        "Developed a user management application during an internship using the PERN stack (PostgreSQL, Express, Node.js, React.js), implementing full CRUD functionality for managing user data efficiently.",
+        "As a Intern at Remote Solutions, I gained hands-on experience in building web applications from end to end. I worked on both backend and frontend development, learning best practices in designing scalable architectures, developing APIs, and optimizing database performance.",
+        "On the frontend, I built responsive and interactive user interfaces, ensuring a seamless user experience. Throughout my internship, I collaborated with senior developers, honed my problem-solving skills, and contributed to real-world projects, strengthening my expertise in full-stack development."
       ],
     },
   ];
@@ -48,9 +45,7 @@
 
       {#each experiences as experience, i}
         <div
-          class="relative flex items-center mb-16 justify-center {i %
-            2 ===
-          0
+          class="relative flex items-center mb-16 justify-center {i % 2 === 0
             ? 'md:justify-start'
             : 'md:justify-end'}"
         >
@@ -59,7 +54,9 @@
           ></div>
 
           <div
-            class="w-full flex flex-col items-center md:w-5/12 md:relative {i % 2 === 0
+            class="w-full flex flex-col items-center md:w-5/12 md:relative {i %
+              2 ===
+            0
               ? 'md:pr-12'
               : 'md:pl-12'}"
           >
@@ -79,7 +76,9 @@
               </h3>
               <div class="flex justify-between items-center mb-5">
                 <p class="text-primary font-semibold">{experience.company}</p>
-                <address class="text-sm text-gray-500">{experience.location}</address>
+                <address class="text-sm text-gray-500">
+                  {experience.location}
+                </address>
               </div>
               <ul
                 class="text-gray-700 leading-relaxed list-disc ml-4 space-y-2"
