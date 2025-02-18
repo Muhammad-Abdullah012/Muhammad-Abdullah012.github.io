@@ -21,7 +21,7 @@
       ],
     },
     {
-      title: "Internhip",
+      title: "Internship",
       company: "Remote Solutions",
       period: "10/2022 - 12/2022",
       location: "Islamabad, Pakistan",
