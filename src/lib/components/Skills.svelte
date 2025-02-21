@@ -12,13 +12,21 @@
     backend: [
       { name: "Node.js", level: 85 },
       { name: "Express.js", level: 85 },
-      { name: "PostgreSQL", level: 80 },
-      { name: "MongoDB", level: 85 },
       { name: "Prisma", level: 80 },
       { name: "Sequelize", level: 80 },
       { name: "Puppeteer", level: 75 },
-      { name: "Python", level: 70 },
       { name: "Playwright", level: 70 },
+    ],
+    database: [
+      { name: "PostgreSQL", level: 80 },
+      { name: "MongoDB", level: 85 },
+      { name: "MySQL", level: 80 },
+      { name: "SQLite", level: 80 },
+    ],
+    languages: [
+      { name: "TypeScript", level: 85 },
+      { name: "JavaScript", level: 85 },
+      { name: "Python", level: 70 },
     ],
     tools: [
       { name: "Git & GitHub", level: 90 },
@@ -35,69 +43,29 @@
     <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
 
     <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-      <!-- Frontend Skills -->
-      <div>
-        <h3 class="text-xl font-semibold mb-6">Frontend Development</h3>
-        <div class="space-y-4">
-          {#each skills.frontend as skill}
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-gray-700">{skill.name}</span>
-                <span class="text-gray-500">{skill.level}%</span>
+      {#each Object.entries(skills) as [category, skillList]}
+        <div>
+          <h3 class="text-xl font-semibold mb-6">
+            {category.charAt(0).toUpperCase() + category.slice(1)}
+          </h3>
+          <div class="space-y-4">
+            {#each skillList as skill}
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="text-gray-700">{skill.name}</span>
+                  <span class="text-gray-500">{skill.level}%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                  <div
+                    class="bg-primary rounded-full h-2"
+                    style="width: {skill.level}%"
+                  ></div>
+                </div>
               </div>
-              <div class="w-full bg-gray-200 rounded-full h-2">
-                <div
-                  class="bg-primary rounded-full h-2"
-                  style="width: {skill.level}%"
-                ></div>
-              </div>
-            </div>
-          {/each}
+            {/each}
+          </div>
         </div>
-      </div>
-
-      <!-- Backend Skills -->
-      <div>
-        <h3 class="text-xl font-semibold mb-6">Backend Development</h3>
-        <div class="space-y-4">
-          {#each skills.backend as skill}
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-gray-700">{skill.name}</span>
-                <span class="text-gray-500">{skill.level}%</span>
-              </div>
-              <div class="w-full bg-gray-200 rounded-full h-2">
-                <div
-                  class="bg-primary rounded-full h-2"
-                  style="width: {skill.level}%"
-                ></div>
-              </div>
-            </div>
-          {/each}
-        </div>
-      </div>
-
-      <!-- Tools -->
-
-      <div>
-        <h3 class="text-xl font-semibold mb-6">Tools & Other Skills</h3>
-        <div class="space-y-4">
-          {#each skills.tools as skill}
-            <div>
-              <div class="flex justify-between mb-1">
-                <span class="text-gray-700">{skill.name}</span>
-                <span class="text-gray-500">{skill.level}%</span>
-              </div>
-              <div class="w-full bg-gray-200 rounded-full h-2">
-                <div
-                  class="bg-primary rounded-full h-2"
-                  style="width: {skill.level}%"
-                ></div>
-              </div>
-            </div>
-          {/each}
-        </div>
-      </div>
+      {/each}
     </div>
   </div>
 </section>
