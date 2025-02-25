@@ -3,7 +3,8 @@
   import GithubIcon from "../../assets/github-mark.svg";
   import LinkedinIcon from "../../assets/linkedin-svgrepo-com.svg";
   import ProfileImage from "../../assets/profile.jpeg";
-  import Resume from "../../assets/Muhammad Abdullah.pdf";
+  import CV from "../../assets/Muhammad_Abdullah_CV.pdf";
+  import Resume from "../../assets/Muhammad_Abdullah_Resume.pdf";
   const socialLinks = [
     {
       href: "https://github.com/Muhammad-Abdullah012",
@@ -16,7 +17,23 @@
       label: "LinkedIn Profile",
     },
   ];
+  let isDropdownOpen = false;
+  let dropdownBtn: HTMLButtonElement | undefined;
+  function toggleDropdown() {
+    isDropdownOpen = !isDropdownOpen;
+  }
+  function handleClickOutside(event: MouseEvent) {
+    if (
+      dropdownBtn &&
+      event.target instanceof Node &&
+      !dropdownBtn.contains(event.target)
+    ) {
+      isDropdownOpen = false;
+    }
+  }
 </script>
+
+<svelte:window on:click={handleClickOutside} />
 
 <section
   id="home"
@@ -87,13 +104,44 @@
         >
           &#128075; Get in Touch
         </a>
-        <a
-          href={Resume}
-          download
-          class="inline-block bg-secondary text-white px-10 mb-8 md:mb-0 py-4 rounded-full transition-all shadow-md animate__animated animate__fadeInUp"
-        >
-          &#128229; Resume
-        </a>
+        <div class="relative inline-block animate__animated animate__fadeInUp">
+          <button
+            class="bg-transparent text-black border-2 border-secondary px-8 py-3 rounded-full transition-all shadow-md flex items-center gap-2"
+            bind:this={dropdownBtn}
+            on:click={toggleDropdown}
+          >
+            &#128229; Download <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              ><path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 9l-7 7-7-7"
+              ></path></svg
+            >
+          </button>
+
+          <div
+            class:hidden={!isDropdownOpen}
+            class="absolute left-0 w-48 bg-white border border-gray-200 rounded-lg shadow-lg mt-2"
+          >
+            <a
+              href={Resume}
+              download
+              class="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+              >📜 Resume</a
+            >
+            <a
+              href={CV}
+              download
+              class="block px-4 py-2 text-gray-700 hover:bg-gray-100">📄 CV</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
