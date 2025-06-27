@@ -46,7 +46,7 @@
         <p
           class="text-xl md:text-2xl text-gray-700 mb-6 animate__animated animate__fadeInUp"
         >
-          {profile.tagline}
+          {@html profile.tagline}
         </p>
 
         <p
