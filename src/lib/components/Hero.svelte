@@ -1,22 +1,7 @@
 <script lang="ts">
   import "animate.css";
-  import GithubIcon from "../../assets/github-mark.svg";
-  import LinkedinIcon from "../../assets/linkedin-svgrepo-com.svg";
-  import ProfileImage from "../../assets/profile.jpeg";
-  import CV from "../../assets/Muhammad_Abdullah_CV.pdf";
-  import Resume from "../../assets/Muhammad_Abdullah_Resume.pdf";
-  const socialLinks = [
-    {
-      href: "https://github.com/Muhammad-Abdullah012",
-      icon: "github",
-      label: "GitHub Profile",
-    },
-    {
-      href: "https://www.linkedin.com/in/muhammad-abdullah-718a34245/",
-      icon: "linkedin",
-      label: "LinkedIn Profile",
-    },
-  ];
+  import { socialLinks, documents, profile } from "../../assets/data.json";
+
   let isDropdownOpen = false;
   let dropdownBtn: HTMLButtonElement | undefined;
   function toggleDropdown() {
@@ -45,8 +30,8 @@
     >
       <div class="w-full md:w-1/3">
         <img
-          src={ProfileImage}
-          alt="Muhammad Abdullah"
+          src={profile.avatar}
+          alt={profile.name}
           class="w-full h-auto rounded-lg shadow-lg object-cover animate__animated animate__fadeInUp"
         />
       </div>
@@ -55,26 +40,25 @@
         <h1
           class="text-4xl md:text-5xl font-bold mb-4 text-gray-900 animate__animated animate__fadeInUp"
         >
-          Muhammad Abdullah
+          {profile.name}
         </h1>
 
         <p
           class="text-xl md:text-2xl text-gray-700 mb-6 animate__animated animate__fadeInUp"
         >
-          <span class="font-bold">Full Stack Developer</span> <span>|</span> Transforming
-          ideas into seamless digital experiences
+          {profile.tagline}
         </p>
 
         <p
           class="text-lg text-gray-600 mb-8 animate__animated animate__fadeInUp"
         >
-          2+ years of experience
+          {profile.exprience}
         </p>
 
         <address
           class="text-lg text-gray-600 mb-8 animate__animated animate__fadeInUp"
         >
-          Based in Islamabad, Pakistan
+          {profile.location}
         </address>
 
         <div
@@ -88,11 +72,7 @@
               class="text-gray-600 hover:text-primary transition-transform transform hover:scale-110"
               aria-label={link.label}
             >
-              {#if link.icon === "github"}
-                <img src={GithubIcon} class="w-8 h-8" alt="GitHub logo" />
-              {:else if link.icon === "linkedin"}
-                <img src={LinkedinIcon} class="w-8 h-8" alt="LinkedIn logo" />
-              {/if}
+                <img src={link.icon} class="w-8 h-8" alt={link.label} />
             </a>
           {/each}
         </div>
@@ -130,13 +110,13 @@
             class="absolute left-0 w-48 bg-white border border-gray-200 rounded-lg shadow-lg mt-2"
           >
             <a
-              href={Resume}
+              href={documents.resume}
               download
               class="block px-4 py-2 text-gray-700 hover:bg-gray-100"
               >📜 Resume</a
             >
             <a
-              href={CV}
+              href={documents.cv}
               download
               class="block px-4 py-2 text-gray-700 hover:bg-gray-100">📄 CV</a
             >

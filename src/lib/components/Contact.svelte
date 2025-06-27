@@ -20,16 +20,16 @@
 
     try {
       await emailjs.send(
-        "service_ipxolot", // Replace with your EmailJS service ID
-        "template_ouygscl", // Replace with your EmailJS template ID
+        "service_ipxolot",
+        "template_ouygscl",
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_name: "Muhammad Abdullah", // Your name
+          to_name: "Muhammad Abdullah",
           reply_to: formData.email,
         },
-        "ofq2JjZy67wwrVZfy" // Replace with your EmailJS public key
+        "ofq2JjZy67wwrVZfy"
       );
       submitStatus = "success";
       // Reset form after successful submission

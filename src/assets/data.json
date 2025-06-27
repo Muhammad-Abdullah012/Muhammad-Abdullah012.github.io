@@ -1,0 +1,196 @@
+{
+  "profile": {
+    "name": "Muhammad Abdullah",
+    "tagline": "Full Stack Developer | Transforming ideas into seamless digital experiences",
+    "exprience": "2+ years of experience",
+    "description": "I'm a Full Stack Developer with over 2 years of experience in building web and mobile applications. I specialize in the MERN and PERN stacks, creating robust and scalable solutions that solve real-world problems. My journey in software development has equipped me with strong problem-solving skills and a deep understanding of both front-end and back-end technologies. I'm passionate about writing clean, efficient code and delivering exceptional user experiences. When I'm not coding, I'm constantly learning new technologies and staying up-to-date with the latest industry trends to ensure I can provide the best solutions for my clients and projects. ",
+    "location": "Islamabad, Pakistan",
+    "avatar": "/images/profile.jpeg"
+  },
+  "socialLinks": [
+    {
+      "href": "https://github.com/Muhammad-Abdullah012",
+      "icon": "/svg/github-mark.svg",
+      "label": "GitHub Profile"
+    },
+    {
+      "href": "https://www.linkedin.com/in/muhammad-abdullah-718a34245/",
+      "icon": "/svg/linkedin-svgrepo-com.svg",
+      "label": "LinkedIn Profile"
+    },
+    {
+      "href": "tel:+923155318002",
+      "icon": "/svg/phone-svgrepo-com.svg",
+      "label": "phone"
+    },
+    {
+      "href": "mailto:m.abdullah.official01@gmail.com",
+      "icon": "/svg/email-1-svgrepo-com.svg",
+      "label": "Email"
+    }
+  ],
+  "documents": {
+    "resume": "/Muhammad_Abdullah_Resume.pdf",
+    "cv": "/Muhammad_Abdullah_CV.pdf"
+  },
+  "skills": {
+    "Languages": [
+      { "name": "JavaScript", "level": 90, "icon": "" },
+      { "name": "TypeScript", "level": 85, "icon": "" },
+      { "name": "Python", "level": 70, "icon": "" }
+    ],
+    "FrameworksAndLibraries": [
+      { "name": "Node.js", "level": 90, "icon": "" },
+      { "name": "Nest.js", "level": 80, "icon": "" },
+      { "name": "Express.js", "level": 80, "icon": "" },
+      { "name": "React", "level": 85, "icon": "" },
+      { "name": "React Native", "level": 85, "icon": "" },
+      { "name": "Expo", "level": 85, "icon": "" },
+      { "name": "Next.js", "level": 80, "icon": "" },
+      { "name": "Electron", "level": 75, "icon": "" },
+      { "name": "Tailwind CSS", "level": 90, "icon": "" }
+    ],
+    "Databases": [
+      { "name": "PostgreSQL", "level": 80, "icon": "" },
+      { "name": "MongoDB", "level": 80, "icon": "" },
+      { "name": "MySQL", "level": 80, "icon": "" },
+      { "name": "Redis", "level": 80, "icon": "" },
+      { "name": "SQLite", "level": 80, "icon": "" }
+    ],
+    "ToolsAndTechnologies": [
+      { "name": "CI/CD (Github Actions)", "level": 70, "icon": "" },
+      { "name": "Git & GitHub", "level": 90, "icon": "" },
+      { "name": "Docker", "level": 75, "icon": "" },
+      { "name": "AWS (EC2, S3)", "level": 70, "icon": "" },
+      { "name": "RabbitMQ", "level": 70, "icon": "" },
+      { "name": "BullMQ", "level": 70, "icon": "" },
+      { "name": "Jest", "level": 70, "icon": "" },
+      { "name": "Mocha", "level": 70, "icon": "" },
+      { "name": "Chai", "level": 70, "icon": "" },
+      { "name": "Playwright", "level": 70, "icon": "" },
+      { "name": "Puppeteer", "level": 70, "icon": "" },
+      { "name": "Sequelize", "level": 75, "icon": "" },
+      { "name": "Prisma", "level": 80, "icon": "" },
+      { "name": "OpenAI LLM", "level": 70, "icon": "" },
+      { "name": "Langchain", "level": 60, "icon": "" },
+      { "name": "Linux & Bash", "level": 65, "icon": "" }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Software Engineer",
+      "company": "Ali Square",
+      "period": "01/2024 - Present",
+      "location": "Remote",
+      "responsibilities": [
+        "Designed and implemented scalable backend systems using modern technologies.",
+        "Managed project deployments and infrastructure optimization for high reliability.",
+        "Led projects from concept to execution, coordinating with cross-functional teams.",
+        "Developed RESTful APIs and integrated backend systems with frontend applications.",
+        "Handled database design, performance tuning, and system architecture decisions."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Gitrex Technologies",
+      "period": "01/2023 - 12/2023",
+      "location": "Islamabad, Pakistan",
+      "responsibilities": [
+        "Developed backend services and APIs for hybrid mobile applications.",
+        "Designed database schemas and optimized database performance.",
+        "Built responsive, user-friendly interfaces using modern frontend frameworks.",
+        "Worked closely with designers and product managers to deliver key features.",
+        "Maintained code quality through reviews, testing, and documentation."
+      ]
+    },
+    {
+      "title": "Internship",
+      "company": "Remote Solutions",
+      "period": "10/2022 - 12/2022",
+      "location": "Islamabad, Pakistan",
+      "responsibilities": [
+        "Assisted in both backend and frontend development of web applications.",
+        "Wrote clean, maintainable code under guidance of senior developers.",
+        "Created interactive UI components and implemented responsive layouts.",
+        "Learned best practices in API development, database design, and version control.",
+        "Participated in daily stand-ups and contributed to team discussions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Zameen Properties Scrapper",
+      "description": "This project is a web scraping tool designed to extract real estate data from Zameen.com, one of the leading property listing platforms. The scraper gathers detailed property information such as price, location, property type, area size, number of bedrooms and bathrooms, amenities, and seller details.",
+      "url": "#",
+      "github": "https://github.com/Muhammad-Abdullah012/scrapper_zameen_v2",
+      "skills": [
+        "Cheerio",
+        "Node.js",
+        "Typescript",
+        "Express",
+        "PostgreSQL",
+        "React",
+        "AWS (EC2)",
+        "Github Actions (CI/CD)"
+      ],
+      "image": "/images/zameen-scrapper-ss.png"
+    },
+    {
+      "title": "RiderPro App",
+      "description": "A role-based logistics platform with car rental features, real-time trip management, and an admin dashboard for tracking KPIs. It includes MQTT-powered notifications, advanced filtering, and analytics for efficient fleet operations.",
+      "url": "#",
+      "github": "https://github.com/Muhammad-Abdullah012/ueber-pro",
+      "skills": [
+        "PostgreSQL",
+        "Express",
+        "NextJs",
+        "Node.js",
+        "Typescript",
+        "Prisma",
+        "MQTT"
+      ],
+      "image": "/images/ueber-pro-logo.png"
+    },
+    {
+      "title": "Brain Bash",
+      "description": "A dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
+      "url": "https://testing.brainbash.me",
+      "github": "https://github.com/Muhammad-Abdullah012/brain-bash",
+      "skills": [
+        "PostgreSQL",
+        "Express",
+        "NextJs",
+        "Node.js",
+        "Typescript",
+        "Prisma",
+        "MQTT",
+        "BullMQ"
+      ],
+      "image": "/images/brain-bash-logo.png"
+    },
+    {
+      "title": "Attentive",
+      "description": "Attentive is a powerful desktop application designed to help users stay focused by blocking distracting websites and applications. Whether you're working, studying, or just trying to be more mindful of your screen time, this app ensures you stay on track.",
+      "url": "#",
+      "github": "https://github.com/SargeKhan/electron_attentive",
+      "skills": ["Electron", "React", "Node.js", "Typescript"],
+      "image": "/svg/attentive-logo.svg"
+    },
+    {
+      "title": "LLM Chat app",
+      "description": "An application where users can chat with LLMs",
+      "url": "#",
+      "github": "https://github.com/Muhammad-Abdullah012/auth-micro-service-mobile",
+      "skills": ["React Native", "React", "Node.js", "Typescript"],
+      "image": "/images/no-image-icon.png"
+    }
+  ],
+  "about": {
+    "title": "About Me",
+    "description": "Highly skilled Senior Full Stack Developer with over 9+ years of experience in designing and developing robust web applications and backend systems. Expertise in Node.js, React.js, and PostgreSQL, with a strong focus on REST API development. Proven ability to collaborate effectively with clients and stakeholders, delivering top-tier software solutions that meet business objectives. Experienced in Agile methodologies, code maintenance, and troubleshooting."
+  },
+  "contact": {
+    "title": "Contact Me",
+    "form_component": "<ContactForm />"
+  }
+}
