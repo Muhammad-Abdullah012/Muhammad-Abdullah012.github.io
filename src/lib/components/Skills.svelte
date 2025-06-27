@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {skills} from "../../assets/data.json";
+  import { skills } from "../../assets/data.json";
 </script>
 
 <section id="skills" class="py-20 bg-white">

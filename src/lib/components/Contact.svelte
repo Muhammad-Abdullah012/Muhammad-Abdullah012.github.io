@@ -1,5 +1,6 @@
 <script lang="ts">
   import emailjs from "@emailjs/browser";
+  import { profile } from "../../assets/data.json";
 
   function delay(ms: number) {
     return new Promise((resolve) => setTimeout(resolve, ms));
@@ -26,7 +27,7 @@
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_name: "Muhammad Abdullah",
+          to_name: profile.name,
           reply_to: formData.email,
         },
         "ofq2JjZy67wwrVZfy"
