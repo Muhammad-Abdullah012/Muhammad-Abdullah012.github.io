@@ -1,0 +1,208 @@
+{
+  "profile": {
+    "name": "Muhammad Abdullah",
+    "tagline": "<span class='font-bold'>Full Stack Developer</span> <span>|</span> Transforming ideas into seamless digital experiences",
+    "exprience": "2+ years of experience",
+    "description": "I'm a Full Stack Developer with over 2 years of experience in building web and mobile applications. I specialize in the MERN and PERN stacks, creating robust and scalable solutions that solve real-world problems. My journey in software development has equipped me with strong problem-solving skills and a deep understanding of both front-end and back-end technologies. I'm passionate about writing clean, efficient code and delivering exceptional user experiences. When I'm not coding, I'm constantly learning new technologies and staying up-to-date with the latest industry trends to ensure I can provide the best solutions for my clients and projects. ",
+    "location": "Based in Islamabad, Pakistan",
+    "avatar": "/images/profile.jpeg"
+  },
+  "socialLinks": [
+    {
+      "href": "https://github.com/Muhammad-Abdullah012",
+      "icon": "/svg/github-mark.svg",
+      "label": "GitHub Profile"
+    },
+    {
+      "href": "https://www.linkedin.com/in/muhammad-abdullah-718a34245/",
+      "icon": "/svg/linkedin-svgrepo-com.svg",
+      "label": "LinkedIn Profile"
+    },
+    {
+      "href": "tel:+923155318002",
+      "icon": "/svg/phone-svgrepo-com.svg",
+      "label": "phone"
+    },
+    {
+      "href": "mailto:m.abdullah.official01@gmail.com",
+      "icon": "/svg/email-1-svgrepo-com.svg",
+      "label": "Email"
+    }
+  ],
+  "documents": {
+    "resume": "/Muhammad_Abdullah_Resume.pdf",
+    "cv": "/Muhammad_Abdullah_CV.pdf"
+  },
+  "skills": {
+    "Frameworks And Libraries": [
+      { "name": "Node.js", "level": 90, "icon": "" },
+      { "name": "Nest.js", "level": 80, "icon": "" },
+      { "name": "Express.js", "level": 80, "icon": "" },
+      { "name": "React", "level": 85, "icon": "" },
+      { "name": "React Native", "level": 85, "icon": "" },
+      { "name": "Expo", "level": 85, "icon": "" },
+      { "name": "Next.js", "level": 80, "icon": "" },
+      { "name": "Electron", "level": 75, "icon": "" },
+      { "name": "Tailwind CSS", "level": 90, "icon": "" }
+    ],
+    "Tools And Technologies": [
+      { "name": "CI/CD (Github Actions)", "level": 70, "icon": "" },
+      { "name": "Git & GitHub", "level": 90, "icon": "" },
+      { "name": "Docker", "level": 75, "icon": "" },
+      { "name": "AWS (EC2, S3)", "level": 70, "icon": "" },
+      { "name": "RabbitMQ", "level": 70, "icon": "" },
+      { "name": "BullMQ", "level": 70, "icon": "" },
+      { "name": "Jest", "level": 70, "icon": "" },
+      { "name": "Mocha", "level": 70, "icon": "" },
+      { "name": "Chai", "level": 70, "icon": "" },
+      { "name": "Playwright", "level": 70, "icon": "" },
+      { "name": "Puppeteer", "level": 70, "icon": "" },
+      { "name": "Sequelize", "level": 75, "icon": "" },
+      { "name": "Prisma", "level": 80, "icon": "" },
+      { "name": "OpenAI LLM", "level": 70, "icon": "" },
+      { "name": "Langchain", "level": 60, "icon": "" },
+      { "name": "Linux & Bash", "level": 65, "icon": "" }
+    ],
+    "Databases": [
+      { "name": "PostgreSQL", "level": 80, "icon": "" },
+      { "name": "MongoDB", "level": 80, "icon": "" },
+      { "name": "MySQL", "level": 80, "icon": "" },
+      { "name": "Redis", "level": 80, "icon": "" },
+      { "name": "SQLite", "level": 80, "icon": "" }
+    ],
+    "Languages": [
+      { "name": "JavaScript", "level": 90, "icon": "" },
+      { "name": "TypeScript", "level": 85, "icon": "" },
+      { "name": "Python", "level": 70, "icon": "" }
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Software Engineer",
+      "company": "Ali Square",
+      "period": "01/2024 - Present",
+      "location": "Remote",
+      "responsibilities": [
+        "Designed and implemented scalable backend systems using modern technologies.",
+        "Managed project deployments and infrastructure optimization for high reliability.",
+        "Led projects from concept to execution, coordinating with cross-functional teams.",
+        "Developed RESTful APIs and integrated backend systems with frontend applications.",
+        "Handled database design, performance tuning, and system architecture decisions."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Gitrex Technologies",
+      "period": "01/2023 - 12/2023",
+      "location": "Islamabad, Pakistan",
+      "responsibilities": [
+        "Developed backend services and APIs for hybrid mobile applications.",
+        "Designed database schemas and optimized database performance.",
+        "Built responsive, user-friendly interfaces using modern frontend frameworks.",
+        "Worked closely with designers and product managers to deliver key features.",
+        "Maintained code quality through reviews, testing, and documentation."
+      ]
+    },
+    {
+      "title": "Internship",
+      "company": "Remote Solutions",
+      "period": "10/2022 - 12/2022",
+      "location": "Islamabad, Pakistan",
+      "responsibilities": [
+        "Assisted in both backend and frontend development of web applications.",
+        "Wrote clean, maintainable code under guidance of senior developers.",
+        "Created interactive UI components and implemented responsive layouts.",
+        "Learned best practices in API development, database design, and version control.",
+        "Participated in daily stand-ups and contributed to team discussions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Nettoyage Cleaners",
+      "description": "Nettoyage Cleaners is a software system built to help a professional cleaning company manage its services online. It allows customers to book cleaning services like home or office cleaning, choose specific options (like deep cleaning, extra bathrooms, etc.), and even add special requests.",
+      "url": "https://nettoyagecleaners.com/en",
+      "github": "#",
+      "skills": [
+        "Node.js",
+        "Typescript",
+        "Express",
+        "PostgreSQL",
+        "NextJs",
+        "AWS (EC2)",
+        "Stripe Payment Gateway"
+      ],
+      "image": "/images/nettoyagecleanershomepage.png"
+    },
+    {
+      "title": "Brain Bash",
+      "description": "A dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
+      "url": "https://brainbash.me",
+      "github": "#",
+      "skills": [
+        "PostgreSQL",
+        "Express",
+        "NextJs",
+        "Node.js",
+        "Typescript",
+        "Prisma",
+        "MQTT",
+        "BullMQ"
+      ],
+      "image": "/images/brain-bash-logo.png"
+    },
+    {
+      "title": "Zameen Properties Scrapper",
+      "description": "This project is a web scraping tool designed to extract real estate data from Zameen.com, one of the leading property listing platforms. The scraper gathers detailed property information such as price, location, property type, area size, number of bedrooms and bathrooms, amenities, and seller details.",
+      "url": "#",
+      "github": "#",
+      "skills": [
+        "Cheerio",
+        "Node.js",
+        "Typescript",
+        "Express",
+        "PostgreSQL",
+        "React",
+        "AWS (EC2)",
+        "Github Actions (CI/CD)"
+      ],
+      "image": "/images/zameen-scrapper-ss.png"
+    },
+    {
+      "title": "RiderPro App",
+      "description": "A role-based logistics platform with car rental features, real-time trip management, and an admin dashboard for tracking KPIs. It includes MQTT-powered notifications, advanced filtering, and analytics for efficient fleet operations.",
+      "url": "#",
+      "github": "#",
+      "skills": [
+        "PostgreSQL",
+        "Express",
+        "NextJs",
+        "Node.js",
+        "Typescript",
+        "Prisma",
+        "MQTT"
+      ],
+      "image": "/images/ueber-pro-logo.png"
+    },
+    {
+      "title": "Attentive",
+      "description": "Attentive is a powerful desktop application designed to help users stay focused by blocking distracting websites and applications. Whether you're working, studying, or just trying to be more mindful of your screen time, this app ensures you stay on track.",
+      "url": "#",
+      "github": "#",
+      "skills": ["Electron", "React", "Node.js", "Typescript"],
+      "image": "/svg/attentive-logo.svg"
+    },
+    {
+      "title": "LLM Chat app",
+      "description": "An application where users can chat with LLMs",
+      "url": "#",
+      "github": "#",
+      "skills": ["React Native", "React", "Node.js", "Typescript"],
+      "image": "/images/no-image-icon.png"
+    }
+  ],
+  "about": {
+    "title": "About Me",
+    "description": "I'm a <span class='font-semibold text-primary'>Full Stack Developer</span> with over <span class='underline decoration-2 decoration-secondary'>2 years of experience</span> in building web and mobile applications. I specialize in the <mark class='bg-primary/10 px-1 rounded'>MERN</mark> and <mark class='bg-primary/10 px-1 rounded'>PERN</mark> stacks, creating <span class='font-semibold text-gray-900'>robust and scalable solutions</span> that solve real-world problems. <br /> <br /> My journey in <mark class='bg-secondary/10 px-1 rounded'>software development</mark> has equipped me with <span class='text-secondary font-semibold'>strong problem-solving skills</span> and a deep understanding of both front-end and back-end technologies. I'm passionate about writing <span class='underline decoration-primary'>clean, efficient code</span> and delivering exceptional user experiences. <br /> <br /> When I'm not coding, I'm constantly learning <mark class='bg-primary/10 px-1 rounded'>new technologies</mark> and staying up-to-date with the <span class='text-primary font-semibold'>latest industry trends</span> to ensure I can provide the <span class='underline decoration-secondary'>best solutions</span> for my clients and projects."
+  }
+}
