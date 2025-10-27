@@ -27,6 +27,7 @@
               {/each}
             </div>
             <div class="flex space-x-4">
+              {#if project.github != "#"}
               <a
                 href={project.github}
                 target="_blank"
@@ -35,6 +36,7 @@
               >
                 GitHub
               </a>
+              {/if}
               {#if project.url != "#"}
                 <a
                   href={project.url}

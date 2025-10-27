@@ -119,10 +119,43 @@
   ],
   "projects": [
     {
+      "title": "Nettoyage Cleaners",
+      "description": "Nettoyage Cleaners is a software system built to help a professional cleaning company manage its services online. It allows customers to book cleaning services like home or office cleaning, choose specific options (like deep cleaning, extra bathrooms, etc.), and even add special requests.",
+      "url": "https://nettoyagecleaners.com/en",
+      "github": "#",
+      "skills": [
+        "Node.js",
+        "Typescript",
+        "Express",
+        "PostgreSQL",
+        "NextJs",
+        "AWS (EC2)",
+        "Stripe Payment Gateway"
+      ],
+      "image": "/images/nettoyagecleanershomepage.png"
+    },
+    {
+      "title": "Brain Bash",
+      "description": "A dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
+      "url": "https://brainbash.me",
+      "github": "#",
+      "skills": [
+        "PostgreSQL",
+        "Express",
+        "NextJs",
+        "Node.js",
+        "Typescript",
+        "Prisma",
+        "MQTT",
+        "BullMQ"
+      ],
+      "image": "/images/brain-bash-logo.png"
+    },
+    {
       "title": "Zameen Properties Scrapper",
       "description": "This project is a web scraping tool designed to extract real estate data from Zameen.com, one of the leading property listing platforms. The scraper gathers detailed property information such as price, location, property type, area size, number of bedrooms and bathrooms, amenities, and seller details.",
       "url": "#",
-      "github": "https://github.com/Muhammad-Abdullah012/scrapper_zameen_v2",
+      "github": "#",
       "skills": [
         "Cheerio",
         "Node.js",
@@ -139,7 +172,7 @@
       "title": "RiderPro App",
       "description": "A role-based logistics platform with car rental features, real-time trip management, and an admin dashboard for tracking KPIs. It includes MQTT-powered notifications, advanced filtering, and analytics for efficient fleet operations.",
       "url": "#",
-      "github": "https://github.com/Muhammad-Abdullah012/ueber-pro",
+      "github": "#",
       "skills": [
         "PostgreSQL",
         "Express",
@@ -152,27 +185,10 @@
       "image": "/images/ueber-pro-logo.png"
     },
     {
-      "title": "Brain Bash",
-      "description": "A dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
-      "url": "https://testing.brainbash.me",
-      "github": "https://github.com/Muhammad-Abdullah012/brain-bash",
-      "skills": [
-        "PostgreSQL",
-        "Express",
-        "NextJs",
-        "Node.js",
-        "Typescript",
-        "Prisma",
-        "MQTT",
-        "BullMQ"
-      ],
-      "image": "/images/brain-bash-logo.png"
-    },
-    {
       "title": "Attentive",
       "description": "Attentive is a powerful desktop application designed to help users stay focused by blocking distracting websites and applications. Whether you're working, studying, or just trying to be more mindful of your screen time, this app ensures you stay on track.",
       "url": "#",
-      "github": "https://github.com/SargeKhan/electron_attentive",
+      "github": "#",
       "skills": ["Electron", "React", "Node.js", "Typescript"],
       "image": "/svg/attentive-logo.svg"
     },
@@ -180,7 +196,7 @@
       "title": "LLM Chat app",
       "description": "An application where users can chat with LLMs",
       "url": "#",
-      "github": "https://github.com/Muhammad-Abdullah012/auth-micro-service-mobile",
+      "github": "#",
       "skills": ["React Native", "React", "Node.js", "Typescript"],
       "image": "/images/no-image-icon.png"
     }
