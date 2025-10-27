@@ -24,7 +24,6 @@
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             activeSection = entry.target.id;
-            history.replaceState(null, '', `#${activeSection}`);
           }
         });
       },
