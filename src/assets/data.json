@@ -152,6 +152,20 @@
       "image": "/images/brain-bash-logo.png"
     },
     {
+      "title": "3D Interactive Globe",
+      "description": "The 3D Interactive Globe is a visually immersive web project built using Three.js. It renders a realistic Earth model with lighting, camera controls, and smooth rotation to showcase global visualization in real time. The project demonstrates skills in 3D rendering, texture mapping, and interactive user controls using modern WebGL APIs.",
+      "url": "https://muhammad-abdullah012.github.io/3d-globe-demo/",
+      "github": "https://github.com/Muhammad-Abdullah012/3d-globe-demo",
+      "skills": [
+        "Three.js",
+        "JavaScript (ES6 Modules)",
+        "WebGL",
+        "OrbitControls",
+        "Frontend Visualization"
+      ],
+      "image": "/images/3d-globe.png"
+    },
+    {
       "title": "Zameen Properties Scrapper",
       "description": "This project is a web scraping tool designed to extract real estate data from Zameen.com, one of the leading property listing platforms. The scraper gathers detailed property information such as price, location, property type, area size, number of bedrooms and bathrooms, amenities, and seller details.",
       "url": "#",
