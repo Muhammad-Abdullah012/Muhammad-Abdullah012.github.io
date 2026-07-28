@@ -13,6 +13,7 @@
             src={project.image}
             alt={project.title}
             class="w-full h-48"
+            loading="lazy"
           />
           <div class="p-6">
             <h3 class="text-xl font-semibold mb-2">{project.title}</h3>

@@ -33,6 +33,7 @@
           src={profile.avatar}
           alt={profile.name}
           class="w-full h-auto rounded-lg shadow-lg object-cover animate__animated animate__fadeInUp"
+          loading="lazy"
         />
       </div>
 
