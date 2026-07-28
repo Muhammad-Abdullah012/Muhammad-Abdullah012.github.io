@@ -7,5 +7,8 @@
     <p class="text-gray-600">
       &copy; {new Date().getFullYear()} {profile.name}. All rights reserved.
     </p>
+    <p class="mt-2">
+      <a href="/privacy.html" class="text-sm text-gray-400 hover:text-primary transition-colors">Privacy Policy</a>
+    </p>
   </div>
 </footer>
