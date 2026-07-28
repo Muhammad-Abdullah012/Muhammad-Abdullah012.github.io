@@ -1,8 +1,9 @@
 <script lang="ts">
   import { experiences } from "../../assets/data.json";
+  import { reveal } from "../actions/reveal";
 </script>
 
-<section id="experience" class="py-20 bg-gray-50">
+<section id="experience" class="py-20 bg-slate-50">
   <div class="container mx-auto px-6">
     <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">
       Experience
@@ -38,7 +39,8 @@
             </div>
 
             <div
-              class="bg-white p-6 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-xl"
+              class="bg-white p-6 rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-xl md:mt-10"
+              use:reveal
             >
               <h3 class="text-2xl font-bold text-gray-900 mb-3">
                 {experience.title}

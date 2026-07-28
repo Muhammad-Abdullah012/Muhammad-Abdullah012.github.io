@@ -5,7 +5,13 @@
     "exprience": "3+ years of experience",
     "description": "I'm a Full Stack Developer with over 3 years of experience in building web and mobile applications. I specialize in the MERN and PERN stacks, creating robust and scalable solutions that solve real-world problems. My journey in software development has equipped me with strong problem-solving skills and a deep understanding of both front-end and back-end technologies. I'm passionate about writing clean, efficient code and delivering exceptional user experiences. When I'm not coding, I'm constantly learning new technologies and staying up-to-date with the latest industry trends to ensure I can provide the best solutions for my clients and projects. ",
     "location": "Based in Islamabad, Pakistan",
-    "avatar": "/images/profile.jpeg"
+    "avatar": "/images/profile.jpeg",
+    "open_to_work": false,
+    "stats": {
+      "years_experience": 3,
+      "projects_count": 7,
+      "technologies_count": 30
+    }
   },
   "socialLinks": [
     {
@@ -34,47 +40,13 @@
     "cv": "/Muhammad_Abdullah_CV.pdf"
   },
   "skills": {
-    "Frameworks And Libraries": [
-      { "name": "Node.js", "level": 90, "icon": "" },
-      { "name": "Nest.js", "level": 80, "icon": "" },
-      { "name": "Express.js", "level": 80, "icon": "" },
-      { "name": "React", "level": 85, "icon": "" },
-      { "name": "React Native", "level": 85, "icon": "" },
-      { "name": "Expo", "level": 85, "icon": "" },
-      { "name": "Next.js", "level": 80, "icon": "" },
-      { "name": "Electron", "level": 75, "icon": "" },
-      { "name": "Tailwind CSS", "level": 90, "icon": "" }
-    ],
-    "Tools And Technologies": [
-      { "name": "CI/CD (Github Actions)", "level": 70, "icon": "" },
-      { "name": "Git & GitHub", "level": 90, "icon": "" },
-      { "name": "Docker", "level": 75, "icon": "" },
-      { "name": "AWS (EC2, S3)", "level": 70, "icon": "" },
-      { "name": "RabbitMQ", "level": 70, "icon": "" },
-      { "name": "BullMQ", "level": 70, "icon": "" },
-      { "name": "Jest", "level": 70, "icon": "" },
-      { "name": "Mocha", "level": 70, "icon": "" },
-      { "name": "Chai", "level": 70, "icon": "" },
-      { "name": "Playwright", "level": 70, "icon": "" },
-      { "name": "Puppeteer", "level": 70, "icon": "" },
-      { "name": "Sequelize", "level": 75, "icon": "" },
-      { "name": "Prisma", "level": 80, "icon": "" },
-      { "name": "OpenAI LLM", "level": 70, "icon": "" },
-      { "name": "Langchain", "level": 60, "icon": "" },
-      { "name": "Linux & Bash", "level": 65, "icon": "" }
-    ],
-    "Databases": [
-      { "name": "PostgreSQL", "level": 80, "icon": "" },
-      { "name": "MongoDB", "level": 80, "icon": "" },
-      { "name": "MySQL", "level": 80, "icon": "" },
-      { "name": "Redis", "level": 80, "icon": "" },
-      { "name": "SQLite", "level": 80, "icon": "" }
-    ],
-    "Languages": [
-      { "name": "JavaScript", "level": 90, "icon": "" },
-      { "name": "TypeScript", "level": 85, "icon": "" },
-      { "name": "Python", "level": 70, "icon": "" }
-    ]
+    "Languages": ["JavaScript", "TypeScript", "Python"],
+    "Frontend": ["React", "Next.js", "Tailwind CSS", "React Native", "Expo", "Electron"],
+    "Backend": ["Node.js", "Nest.js", "Express.js", "REST APIs", "RabbitMQ", "BullMQ", "Kafka", "Apache Flink", "Celery"],
+    "Databases": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Prisma", "Neo4j"],
+    "DevOps & Tools": ["Docker", "AWS (EC2, S3)", "Git & GitHub", "CI/CD (Github Actions)", "Linux & Bash", "CheckMK", "PyMuPDF"],
+    "Testing": ["Jest", "Playwright", "Puppeteer", "Mocha", "Chai"],
+    "AI & ML": ["OpenAI LLM", "Langchain", "Langgraph", "Ollama", "Mistral OCR", "OpenCV"]
   },
   "experiences": [
     {
@@ -87,7 +59,10 @@
         "Managed project deployments and infrastructure optimization for high reliability.",
         "Led projects from concept to execution, coordinating with cross-functional teams.",
         "Developed RESTful APIs and integrated backend systems with frontend applications.",
-        "Handled database design, performance tuning, and system architecture decisions."
+        "Handled database design, performance tuning, and system architecture decisions.",
+        "Built a NOC (Network Operations Center) platform using a microservices architecture, integrating Apache Kafka for real-time event streaming and Apache Flink for stateful stream processing and alerting pipelines.",
+        "Implemented LLM tool-calling workflows within the NOC platform to enable intelligent, context-aware automated responses to infrastructure events.",
+        "Developed an agentic Graph RAG system that combines knowledge graph traversal with retrieval-augmented generation, enabling multi-step reasoning and dynamic tool use for complex query resolution."
       ]
     },
     {
@@ -120,6 +95,7 @@
   "projects": [
     {
       "title": "Nettoyage Cleaners",
+      "featured": true,
       "description": "Nettoyage Cleaners is a software system built to help a professional cleaning company manage its services online. It allows customers to book cleaning services like home or office cleaning, choose specific options (like deep cleaning, extra bathrooms, etc.), and even add special requests.",
       "url": "https://nettoyagecleaners.com/en",
       "github": "#",
@@ -136,6 +112,7 @@
     },
     {
       "title": "Brain Bash",
+      "featured": true,
       "description": "A dynamic quiz platform with customizable question sets, real-time scoring, and user progress tracking. It offers an engaging experience for learning and self-assessment.",
       "url": "https://brainbash.me",
       "github": "#",

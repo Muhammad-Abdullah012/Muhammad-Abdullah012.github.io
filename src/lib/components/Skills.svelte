@@ -1,31 +1,28 @@
 <script lang="ts">
   import { skills } from "../../assets/data.json";
+  import { reveal } from "../actions/reveal";
+
+  const categories = Object.entries(skills);
 </script>
 
 <section id="skills" class="py-20 bg-white">
   <div class="container mx-auto px-6">
-    <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+    <h2 class="text-3xl font-bold text-center mb-14 text-slate-900">Skills</h2>
 
-    <div class="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-      {#each Object.entries(skills) as [category, skillList]}
-        <div>
-          <h3 class="text-xl font-semibold mb-6">
-            {category.charAt(0).toUpperCase() + category.slice(1)}
-          </h3>
-          <div class="space-y-4">
+    <div class="max-w-3xl mx-auto space-y-10">
+      {#each categories as [category, skillList]}
+        <div use:reveal>
+          <div class="flex items-center gap-4 mb-4">
+            <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 whitespace-nowrap">
+              {category}
+            </h3>
+            <div class="flex-1 h-px bg-slate-200"></div>
+          </div>
+          <div class="flex flex-wrap gap-2">
             {#each skillList as skill}
-              <div>
-                <div class="flex justify-between mb-1">
-                  <span class="text-gray-700">{skill.name}</span>
-                  <span class="text-gray-500">{skill.level}%</span>
-                </div>
-                <div class="w-full bg-gray-200 rounded-full h-2">
-                  <div
-                    class="bg-primary rounded-full h-2"
-                    style="width: {skill.level}%"
-                  ></div>
-                </div>
-              </div>
+              <span class="px-4 py-1.5 rounded-full text-sm font-medium bg-indigo-50 text-primary border border-indigo-200">
+                {skill}
+              </span>
             {/each}
           </div>
         </div>

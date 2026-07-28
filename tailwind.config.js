@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#2563eb',
-        secondary: '#1e40af'
-      }
+        primary: '#4f46e5',
+        secondary: '#3730a3'
+      },
+      fontFamily: {
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+      },
     }
   },
   plugins: []

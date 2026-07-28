@@ -1,6 +1,7 @@
 <script lang="ts">
   import emailjs from "@emailjs/browser";
   import { profile } from "../../assets/data.json";
+  import { trackEvent } from "../analytics";
 
   function delay(ms: number) {
     return new Promise((resolve) => setTimeout(resolve, ms));
@@ -33,7 +34,7 @@
         "ofq2JjZy67wwrVZfy"
       );
       submitStatus = "success";
-      // Reset form after successful submission
+      trackEvent('contact_form_submit');
       formData = {
         name: "",
         email: "",
